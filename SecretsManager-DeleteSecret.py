@@ -23,7 +23,9 @@ def delete_secret():
         for i in my_list:
             print(index,i)
             index +=1
-                
+            start_delete()
+
+def start_delete():
     x=input("Please note the script will delete all your secret permanenetly and this is an irreverisble operation,type confirm to proceed. ")
     if x == "confirm" or x == "Confirm":
         print("Deleting...")
